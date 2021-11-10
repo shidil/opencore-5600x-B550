@@ -229,6 +229,8 @@
 			<false/>
 			<key>SyncRuntimePermissions</key>
 			<true/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -571,7 +573,6 @@
 			<string>Auto</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
-			
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -1095,7 +1096,7 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -1109,7 +1110,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1212,7 +1213,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=3 npci=0x2000</string>
+				<string>keepsyms=1 debug=0x100 alcid=3 revcpu=1 -revsbvmm</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1412,7 +1413,6 @@
 				<key>Path</key>
 				<string>OpenLinuxBoot.efi</string>
 			</dict>
-
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1527,6 +1527,8 @@
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
 			<false/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 		</dict>
 		<key>ReservedMemory</key>
 		<array>
