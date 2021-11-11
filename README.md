@@ -15,7 +15,7 @@ OpenCore bootloader config files for my workstation hackintosh.
 | Board    |            MSI B550 A-Pro |
 | Ethernet |      RTL8111H Gigabit LAN |
 
-- OpenCore: v0.7.4
+- OpenCore: v0.7.5
 - MacOS: v11.6 BigSur
 - OpenCanopy theme: <https://github.com/tekteq/opencanopy-minimal-theme>
 
