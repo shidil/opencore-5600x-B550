@@ -63,6 +63,7 @@ Go to <https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platformin
 ## Pre Install
 
 - Update SMBIOS and MAC address
+- Turn on 4G Above encoding, Turn off Resizable bar support
   
 ## Post Install
 
