@@ -4,6 +4,13 @@ OpenCore bootloader config files for my workstation hackintosh.
 
 `RX 6800` support arrived on Big Sur 11.4
 
+## What about 12.0 Monterey?
+
+According to [amd-osx](https://forum.amd-osx.com/index.php?threads/any-issues-with-msi-mpg-x570-gaming-plus-boards.2484/) Many MSI Motherboards have a BIOS issue that breaks Monterey.
+
+This repo only works with Big Sur due to that issue.
+
+
 ## System Information
 
 | Name     |                     Model |
